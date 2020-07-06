@@ -3,6 +3,7 @@ layout: post
 img: assets/images/photo1.jpg
 time: 20 heures
 level: Facile
+style_name: home
 ---
 
 Vous souhaitez créer vos propres sites web ? Vous êtes au bon endroit ! Dans ce cours, vous apprendrez comment utiliser HTML5 et CSS3, les deux langages de programmation à la base de tous les sites web.
