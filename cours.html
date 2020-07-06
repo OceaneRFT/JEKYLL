@@ -92,7 +92,7 @@ style_name: cours
       <img src="{{ post.img | relative_url }}" alt="images">
       <div class="bloc">
       
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
       <img src="assets/images/level.JPG" class="image">
       {{ post.level }}
       <img src="assets/images/clock.svg" class="image"> 
