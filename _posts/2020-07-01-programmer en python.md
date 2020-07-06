@@ -1,5 +1,5 @@
 ---
-layout: post
+
 img: assets/images/photo2.jpg
 time: 40 heures
 level: Difficile

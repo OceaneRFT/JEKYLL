@@ -1,5 +1,4 @@
 ---
-layout: post
 img: assets/images/photo10.jpg
 time: 6 heures
 level: Facile

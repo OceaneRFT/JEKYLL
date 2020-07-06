@@ -10,6 +10,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      style_name: home
   - scope:
       path: ""
     values:

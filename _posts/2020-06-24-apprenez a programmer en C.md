@@ -1,5 +1,4 @@
 ---
-layout: post
 img: assets/images/photo9.jpg
 time: 40 heures
 level: Moyenne
