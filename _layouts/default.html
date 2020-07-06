@@ -11,7 +11,7 @@ title: Home
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 
     {% if page.style_name != null %}
-      <link rel="stylesheet" href="/assets/css/{{ page.style_name }}.css" />
+      <link rel="stylesheet" href="{{ '/assets/css/' | append: page.style_name | append: '.css' | relative_url }}" />
     {% endif %}
 
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico" />
