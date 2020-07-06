@@ -1,0 +1,132 @@
+---
+layout: default
+title: Recherche - OpenClassrooms
+style_name: cours
+---
+<!-- bouton CATEGORIE -->
+<div class="btn container mt-4">
+<div class="btn-group dropdown">
+  
+  <button type="button" class="categorie btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <strong>CATEGORIE (COURS)</strong> <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <form>
+      Affiner les résultats par catégorie
+      <li>
+        <input class="lg m-2" type="radio" id="tout" value="tout" name="category">
+        <label for="tout">Tout</label>
+      </li>
+      
+      <li>
+        <input class="lg m-2" type="radio" id="parcours" value="parcours" name="category">
+        <label for="parcours">Parcours</label>
+      </li>
+      
+      <li>
+        <input class="lg m-2" type="radio" id="cours" value="cours" name="category" checked>
+        <label for="cours">Cours</label>
+      </li>
+    </form>
+  </ul>
+</div>
+
+
+<!-- bouton THEME -->
+<div class="btn-group dropdown">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <strong>THEME</strong> <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <form class="cadre w-100">
+      <button class="bouton-v btn m-1"><strong>Bureautique</strong></button>
+      <button class="bouton-b btn m-"><strong>Business</strong></button>
+      <button class="bouton-vt btn m-1"><strong>Data</strong></button>
+      <button class="bouton-r btn m-1"><strong>Design</strong></button>
+      <button class="bouton-vt btn m-1"><strong>Développement</strong></button>
+      <button class="bouton-v btn m-1"><strong>Gestion de projet</strong></button>
+      <button class="bouton-rs btn m-1"><strong>Insertion professionnelle</strong></button>
+      <button class="bouton-b btn m-1"><strong>Marketing & Communication</strong></button>
+      <button class="bouton-r btn m-1"><strong>Pédagogie</strong></button>
+      <button class="bouton-v btn m-1"><strong>RH & Gestion</strong></button>
+      <button class="bouton-m btn m-1"><strong>Soft skills</strong></button>
+      <button class="bouton-bc btn m-1"><strong>Systèmes & Réseaux</strong></button>
+      <button class="bouton-v btn m-1"><strong>Autres</strong></button>
+    </form>
+  </ul>
+</div>
+
+<!-- bouton LANGUE -->
+<div class="btn-group dropdown">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <strong>LANGUE</strong> <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <form>
+      Seuls les résultats dans votre langue sont affichés, mais certains cours sont disponibles dans d'autres langues.
+      <li>
+        <input class="lg m-2" type="radio" id="francais" value="francais" name="lang" checked>
+        <label for="francais">Français</label>
+      </li>
+      
+      <li>
+        <input class="lg m-2" type="radio" id="anglais" value="anglais" name="lang">
+        <label for="anglais">Anglais</label>
+      </li>
+      
+      <li>
+        <input class="lg m-2" type="radio" id="espagnol" value="espagnol" name="lang">
+        <label for="espagnol">Espagnol</label>
+      </li>
+    </form>
+  </ul>
+</div>
+</div>
+
+<ul>
+  {% for post in site.posts %}
+      
+      
+      
+      <div class="post d-flex">
+      <img src="{{ post.img }}" alt="images"> 
+      <div class="bloc">
+      
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <img src="assets/images/level.JPG" class="image">
+      {{ post.level }}
+      <img src="assets/images/clock.svg" class="image"> 
+      {{ post.time }}
+      {{ post.excerpt }}
+      </div>
+      
+      </div>
+      
+      
+  {% endfor %}
+</ul>
+
+<!-- Pagination -->
+<nav aria-label="Page navigation example">
+  <ul class="pagination pg-blue">
+    <li class="page-item">
+      <a class="page-link" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+    <li class="page-item"><a class="page-link">3</a></li>
+    <li class="page-item"><a class="page-link">4</a></li>
+    <li class="page-item"><a class="page-link">5</a></li>
+    <li class="page-item"><a class="page-link">6</a></li>
+    <li class="page-item"><a class="page-link">7</a></li>
+    <li class="page-item">
+      <a class="page-link" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</nav>

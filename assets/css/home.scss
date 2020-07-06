@@ -1,0 +1,142 @@
+---
+---
+
+$color-primary:#003668;
+$color-secondary:#7451eb;
+$color1:white;
+$color2:black;
+
+@mixin bouton{
+    box-shadow: 1px 2px 5px black;
+}
+
+// Entête du site
+.nav-b.container-fluid{
+  background-color: $color-primary;
+  padding: 8px 0;
+    & .row-b{
+      justify-content: space-around;
+    }
+}
+.nav{
+  justify-content: center;
+  & .navbar-nav{
+    margin-right: 370px;
+  }
+}
+// Bouton connect
+.bouton-connect{
+    background-color: $color1;
+    color: $color-secondary;
+    border: 1px solid $color-secondary;
+        &:hover{
+            @include bouton;
+            color: $color-secondary;
+            background-color: #7551eb32;
+        }
+}
+// Bouton submit
+.bouton-submit{
+    background-color: $color-secondary;
+    color: $color1;
+        &:hover{
+            @include bouton;
+            color: $color1;
+        }
+}
+// Bouton savoir
+.bouton-savoir{
+    width: 18%;
+    color: $color-secondary;
+        &:hover{
+            @include bouton;
+            color: $color-secondary;
+        }
+}
+// Bouton contact
+.bouton-contact{
+    background-color: $color-secondary;
+    color: $color1;
+    border: 1px solid #eeedf1;
+        &:hover{
+            @include bouton;
+            color: $color1;
+        }
+}
+.bouton-cont,
+.image {
+    background-color: $color-secondary;
+}
+// Header
+.avenir{
+    color: $color1;
+    margin-top: 40px;
+}
+.titre{
+    background-color: $color-primary;
+    padding: 5px;
+    font-size: 45px;
+    font-weight: bold;
+}
+// Images Header
+.card-title{
+    border:none;
+    width: 80%;
+}
+// Body
+//Video
+.para a{
+    text-decoration: underline;
+    color: $color2;
+        &:hover{
+            text-decoration: none;
+            color: $color2;
+        }
+}
+.titreform{
+    background-color:$color-secondary;
+    color: $color1;
+}
+
+// Caroussels
+.diapo-txt{
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: $color-primary;
+}
+.carousel-control-next{
+    filter: invert(100%)
+}
+.bouton-vid{
+    font-size: 0.8em;
+    color: $color-secondary;
+}
+.font-weight-bold{
+    font-size: 0.7em;
+    color: $color-primary;
+}
+// Footer
+.text{
+    color:$color-secondary;
+    font-size: 1.7rem;
+    border: 1px solid $color-secondary;
+}
+// Liens Footer
+a{
+    color: $color2;
+        &:hover{
+            color: $color-secondary;
+            text-decoration: none;
+        }
+}
+// Icones Footer
+img.svg{
+    width: 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+.psvg{
+    width: 10px;
+    margin: 1px;
+}

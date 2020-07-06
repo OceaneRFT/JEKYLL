@@ -1,0 +1,79 @@
+.nav-b.container-fluid { display: none; }
+
+.nav { justify-content: center; border: 1px solid #e0e0e0; }
+
+.nav .navbar-nav { margin-right: 370px; }
+
+.navbar { padding: 0 !important; }
+
+.bouton-connect { background-color: white; color: #7451eb; border: 1px solid #7451eb; }
+
+.bouton-connect:hover { box-shadow: 1px 2px 5px black; color: #7451eb; background-color: #7551eb32; }
+
+.bouton-submit { background-color: #7451eb; color: white; }
+
+.bouton-submit:hover { box-shadow: 1px 2px 5px black; color: white; }
+
+.btn-group, .post { box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.246); border: 1px solid #faf8f8; border-radius: 6px; }
+
+.btn-group:hover, .post:hover { box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.644); }
+
+.categorie { color: #7451eb; }
+
+.categorie:active { background-color: #7551eb7c; }
+
+.dropdown-menu { min-width: 310px; }
+
+.bouton-v { color: purple; border: 1px solid purple; background-color: white; border-radius: 16px; position: relative; min-height: 32px; }
+
+.bouton-v:hover { box-shadow: 1px 2px 5px black; color: purple; background-color: rgba(128, 0, 128, 0.274); }
+
+.bouton-b { color: blue; border: 1px solid blue; background-color: white; border-radius: 16px; position: relative; min-height: 32px; }
+
+.bouton-b:hover { box-shadow: 1px 2px 5px black; color: blue; background-color: rgba(0, 0, 255, 0.178); }
+
+.bouton-vt { color: green; border: 1px solid green; background-color: white; border-radius: 16px; position: relative; min-height: 32px; }
+
+.bouton-vt:hover { box-shadow: 1px 2px 5px black; color: green; background-color: rgba(0, 128, 0, 0.157); }
+
+.bouton-r { color: red; border: 1px solid red; background-color: white; border-radius: 16px; position: relative; min-height: 32px; }
+
+.bouton-r:hover { box-shadow: 1px 2px 5px black; color: red; background-color: rgba(255, 0, 0, 0.192); }
+
+.bouton-rs { color: #c961db; border: 1px solid #c961db; background-color: white; border-radius: 16px; position: relative; min-height: 32px; }
+
+.bouton-rs:hover { box-shadow: 1px 2px 5px black; color: #c961db; background-color: rgba(223, 112, 243, 0.37); }
+
+.bouton-m { color: #553d3d; border: 1px solid #553d3d; background-color: white; border-radius: 16px; position: relative; min-height: 32px; }
+
+.bouton-m:hover { box-shadow: 1px 2px 5px black; color: #553d3d; background-color: rgba(85, 61, 61, 0.26); }
+
+.bouton-bc { color: #3ebbbb; border: 1px solid #3ebbbb; background-color: white; border-radius: 16px; position: relative; min-height: 32px; }
+
+.bouton-bc:hover { box-shadow: 1px 2px 5px black; color: #3ebbbb; background-color: rgba(62, 187, 187, 0.164); }
+
+.post { margin: 10px 350px 20px 350px; }
+
+.image { width: 15px; margin-left: 5px; margin-bottom: 10px; }
+
+.globale { border: 3px solid; padding: 10px; }
+
+.post.d-flex { padding: 1%; }
+
+.bloc { margin-left: 2%; }
+
+.pagination { display: flex; justify-content: center; }
+
+a.page-link { border: none; }
+
+.text { color: #7451eb; font-size: 1.7rem; border: 1px solid #7451eb; }
+
+a { color: black; }
+
+a:hover { color: #7451eb; text-decoration: none; }
+
+img.svg { width: 30px; margin: auto; margin-top: 10px; }
+
+.psvg { width: 10px; margin: 1px; }
+
+/*# sourceMappingURL=cours.css.map */

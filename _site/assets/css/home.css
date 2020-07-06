@@ -1,0 +1,57 @@
+.nav-b.container-fluid { background-color: #003668; padding: 8px 0; }
+
+.nav-b.container-fluid .row-b { justify-content: space-around; }
+
+.nav { justify-content: center; }
+
+.nav .navbar-nav { margin-right: 370px; }
+
+.bouton-connect { background-color: white; color: #7451eb; border: 1px solid #7451eb; }
+
+.bouton-connect:hover { box-shadow: 1px 2px 5px black; color: #7451eb; background-color: #7551eb32; }
+
+.bouton-submit { background-color: #7451eb; color: white; }
+
+.bouton-submit:hover { box-shadow: 1px 2px 5px black; color: white; }
+
+.bouton-savoir { width: 18%; color: #7451eb; }
+
+.bouton-savoir:hover { box-shadow: 1px 2px 5px black; color: #7451eb; }
+
+.bouton-contact { background-color: #7451eb; color: white; border: 1px solid #eeedf1; }
+
+.bouton-contact:hover { box-shadow: 1px 2px 5px black; color: white; }
+
+.bouton-cont, .image { background-color: #7451eb; }
+
+.avenir { color: white; margin-top: 40px; }
+
+.titre { background-color: #003668; padding: 5px; font-size: 45px; font-weight: bold; }
+
+.card-title { border: none; width: 80%; }
+
+.para a { text-decoration: underline; color: black; }
+
+.para a:hover { text-decoration: none; color: black; }
+
+.titreform { background-color: #7451eb; color: white; }
+
+.diapo-txt { text-align: center; font-size: 1.7em; font-weight: bold; color: #003668; }
+
+.carousel-control-next { filter: invert(100%); }
+
+.bouton-vid { font-size: 0.8em; color: #7451eb; }
+
+.font-weight-bold { font-size: 0.7em; color: #003668; }
+
+.text { color: #7451eb; font-size: 1.7rem; border: 1px solid #7451eb; }
+
+a { color: black; }
+
+a:hover { color: #7451eb; text-decoration: none; }
+
+img.svg { width: 30px; margin: auto; margin-top: 10px; }
+
+.psvg { width: 10px; margin: 1px; }
+
+/*# sourceMappingURL=home.css.map */
